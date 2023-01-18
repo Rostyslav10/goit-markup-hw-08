@@ -1,0 +1,5 @@
+@mixin stfont($height,$spacing,$color){
+    line-height: $height;
+    letter-spacing: $spacing;
+    color: $color;
+}

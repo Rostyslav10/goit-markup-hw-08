@@ -1,0 +1,43 @@
+.page-footer {
+    background-color: $hero-background-color;
+    padding:60px 0;
+    text-align: center;
+    &__logo {
+        display: block;
+        color: $header-background-color;        
+    }
+    &__info{
+     text-align: center;   
+    }
+}
+
+@media (min-width:768px){
+    .page-footer {
+        &__item{
+            display: flex;
+            justify-content: space-between;
+              
+        }
+        &__info{
+            display: inline-block;
+            text-align: center;
+        }
+    }   
+}
+@media (min-width:1200px) {
+    .page-footer {
+        
+       
+        &__container{
+            display: flex;
+            justify-content: space-between; 
+        }
+       
+        &__info{
+            display: inline-block;
+            text-align: left;
+            margin-right: 70px;
+        }
+    }
+    
+}

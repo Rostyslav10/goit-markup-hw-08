@@ -1,0 +1,47 @@
+.section--directions{
+    padding-bottom: 94px;
+}
+.section__title--directions{
+    padding-top: 0;
+}
+
+.directions-list{
+    display: flex; 
+
+    &__photo{
+        margin-right: 30px;
+        position: relative;
+   
+        &:nth-child(3n){
+           margin-right: o; 
+        }
+    }
+    
+    &__label{
+        position: absolute;
+        height: 70px;
+        width: 100%;
+        background-color: rgba(47, 48, 58, 0.8);;
+    
+        bottom: 3px;
+        right: 0;
+       
+    
+    }
+    &__text{
+       @extend %transform-centr;
+        position: absolute;
+        
+        @include stfont(1.14,0.03em,$header-background-color);
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+ }
+ @media (max-width:1199px) {
+    .section--directions{
+        display: none;
+    }
+    
+    
+ }

@@ -1,0 +1,26 @@
+.contakt-list{
+    display: inline-block;
+
+    &__adres {
+        display: flex;
+        color: $header-background-color;
+        letter-spacing: 0.03em;
+        line-height: 1.71;
+        font-size: 14px;
+        
+       
+        margin-top: 20px;
+    }
+    
+    &__link {
+        display: inline-block;
+
+        
+        color: $footer-link-color;
+        letter-spacing: 0.03em;
+        line-height: 1.71;
+        font-style: normal;
+
+        margin-top: 8px;
+    }
+    }

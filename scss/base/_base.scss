@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+}
+body{
+    color:$primary-text-color;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    cursor: default;
+    padding: 0;
+    margin: 0; 
+    
+ }
+ .backdrop{
+    overflow: hidden;
+ }
+ body .modal-open {
+    overflow: hidden;
+}
+ .button{
+    
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    line-height: 1.88;
+
+    color: $button-text-color;
+    background-color: $activ-text-color;
+    cursor: pointer;
+    border-radius: 4px;
+    min-width: 200px;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom:10px;  
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address{
+    font-style: normal;
+}

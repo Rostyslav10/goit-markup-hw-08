@@ -1,0 +1,18 @@
+.logo{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: $logo-text-color;
+    font-weight: 700;
+    font-size: 24px;
+ }
+ .logo__segment{
+   color: $activ-text-color;
+ }
+ @media (min-width:1200px) {
+    .logo{
+        font-size: 26px;
+        line-height: 1.19;
+    }
+    
+ }

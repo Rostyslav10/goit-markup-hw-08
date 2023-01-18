@@ -1,0 +1,78 @@
+.button-list{
+    border: #000000;
+
+     &__value {
+        // @include stfont(1.62,0.03em,$primary-text-color);
+        color: $primary-text-color;
+        letter-spacing: 0.03em;
+        line-height: 1.62;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+    
+        background-color: $section-background-color;
+        border-radius: 4px;
+        border: transparent;
+    
+        padding: 6px 25px;
+       
+      
+        transition-property:color, background-color, box-shadow ;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover, &:focus{
+            color: $hero-text-color;
+            background-color: $activ-text-color;
+            cursor: pointer;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+           }
+    }
+}
+@media (min-width:768px) and (max-width:1199px) {
+    .button-list{
+         display: flex;
+         justify-content: center;
+         margin-top: 60px;
+         margin-bottom: 30px;
+     &__item{
+            margin-right: 8px;
+            &:last-child{
+             margin-right: 0;
+            }
+         }
+
+    }
+}
+@media (min-width:1200px) {
+    .button-list{
+        display: flex;
+        justify-content: center;
+        margin-top: 94px;
+        margin-bottom: 50px;
+        &__item{
+            margin-right: 8px;
+            &:last-child{
+             margin-right: 0;
+            }
+         }
+    }
+    
+}
+@media (max-width:768px) {
+    .button-list{
+        display: flex;
+        gap: 15px 8px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        margin-top: 60px;
+     
+    &__item{
+        margin-right: 8px;
+        &:last-child{
+         margin-right: 0;
+        }
+     }
+    } 
+}
