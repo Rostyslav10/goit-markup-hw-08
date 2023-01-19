@@ -21,6 +21,11 @@
      display: flex;   
     }
 }
+@media(min-width:768px) and (max-width:1199px){
+    .header__nav{
+        margin-left: 88px;
+    }   
+}
 .header__link{
    display: block;
    position: relative;
