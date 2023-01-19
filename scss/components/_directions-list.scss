@@ -1,19 +1,15 @@
-.section--directions{
-    padding-bottom: 94px;
-}
+
 .section__title--directions{
     padding-top: 0;
 }
-
 .directions-list{
     display: flex; 
 
     &__photo{
         margin-right: 30px;
         position: relative;
-   
-        &:nth-child(3n){
-           margin-right: o; 
+     &:nth-child(3n){
+         margin-right: o; 
         }
     }
     
@@ -25,13 +21,10 @@
     
         bottom: 3px;
         right: 0;
-       
-    
     }
     &__text{
        @extend %transform-centr;
         position: absolute;
-        
         @include stfont(1.14,0.03em,$header-background-color);
         font-weight: 700;
         text-align: center;

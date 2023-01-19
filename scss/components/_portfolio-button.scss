@@ -2,10 +2,7 @@
     border: #000000;
 
      &__value {
-        // @include stfont(1.62,0.03em,$primary-text-color);
-        color: $primary-text-color;
-        letter-spacing: 0.03em;
-        line-height: 1.62;
+        @include stfont(1.62,0.03em,$primary-text-color);
         font-family: inherit;
         font-weight: 500;
         font-size: 16px;
@@ -33,7 +30,7 @@
     .button-list{
          display: flex;
          justify-content: center;
-         margin-top: 60px;
+       
          margin-bottom: 30px;
      &__item{
             margin-right: 8px;
@@ -48,7 +45,6 @@
     .button-list{
         display: flex;
         justify-content: center;
-        margin-top: 94px;
         margin-bottom: 50px;
         &__item{
             margin-right: 8px;
@@ -66,7 +62,7 @@
         justify-content: flex-start;
         flex-wrap: wrap;
         margin-bottom: 40px;
-        margin-top: 60px;
+       
      
     &__item{
         margin-right: 8px;

@@ -1,24 +1,17 @@
 
 .social-blok{
-    display: inline-block;
-    
+    display: inline-block;  
 }
 .social-blok__title{
     text-align: center;
-    color: $header-background-color;
-    letter-spacing: 0.03em;
-    line-height: 1.17;
+    @include stfont(1.17,0.03em,$header-background-color);
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 20px;
-   
+    margin-bottom: 20px; 
 }
-
-
 .social-blok__label{
     display:inline-flex ;
-   
-  
+    
     &:not(:last-child){
         margin-right: 10px; 
 }
@@ -27,27 +20,21 @@
     display:inline-flex ;
     justify-content: center;
     align-items: center; 
-   
+    color: $hero-text-color;
+    background-color: rgba(255, 255, 255, 0.1);
     width: 44px;
     height: 44px;
     border-radius: 50%;
-
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover, &:focus{
         background-color: $activ-text-color;
 }
-   
-
-
-    color: $hero-text-color;
-    background-color: rgba(255, 255, 255, 0.1);
 }
 .social-blok__icon {
     fill: currentColor;
 }
 @media (max-width:768px) {
-
     .social-blok__title{
         margin-top: 60px;
     }
@@ -56,5 +43,4 @@
     .social-blok__title{
         text-align: left;
     }
-
 }

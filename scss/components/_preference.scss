@@ -1,7 +1,4 @@
 .preference{
-    margin: 60px 0;
-
-    
     &__icon{
         height: 120px;
         background-color: $section-background-color;
@@ -9,23 +6,16 @@
         margin-bottom: 30px;
         display: flex;
         justify-content: center;
-        align-items: center;
-       
-    
-       
+        align-items: center;   
     }
     @media (max-width:767px) {
     .preference__list{
         max-width: 450px; 
-        margin-bottom: 30px; 
     } 
     .preference__title{
         text-align: center;   
      } 
-    }
-    
-   
-    
+    } 
     &__title{
         font-weight: 700;
         font-size: 14px;
@@ -34,8 +24,6 @@
         line-height: 1.17;
         margin-bottom: 10px;
     }
-
- 
     &__text{
         color: $secondary-text-color;
         line-height: 1.72;
@@ -57,8 +45,6 @@
    @media (min-width:1200px) {
     .preference{
         display: flex; 
-        margin-bottom: 94px; 
-        margin-top: 94px; 
         &__list{
             max-width: 270px;
             &:not(:last-child){

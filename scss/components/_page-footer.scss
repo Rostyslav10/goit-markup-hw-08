@@ -15,7 +15,7 @@
     .page-footer {
         &__item{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
               
         }
         &__info{
@@ -26,8 +26,6 @@
 }
 @media (min-width:1200px) {
     .page-footer {
-        
-       
         &__container{
             display: flex;
             justify-content: space-between; 
