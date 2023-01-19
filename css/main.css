@@ -26,11 +26,7 @@ body {
   margin: 0;
 }
 
-.backdrop {
-  overflow: hidden;
-}
-
-body .modal-open {
+body.modal-open {
   overflow: hidden;
 }
 
