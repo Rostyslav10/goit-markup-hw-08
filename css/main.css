@@ -276,6 +276,10 @@ h1, h2, h3, h4, p {
     width: 14px;
     height: 10px;
   }
+  .auth-nav__icon--large {
+    width: 10px;
+    height: 14px;
+  }
 }
 @media (min-width: 1200px) {
   .auth-nav {
